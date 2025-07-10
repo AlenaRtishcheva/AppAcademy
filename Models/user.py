@@ -1,13 +1,14 @@
 
 class User:
+    '''class for user with functions '''
     def __init__(self, login, password):
         self.login = login
         self.password = password
 
-    def get_group(self):
+    def get_groups(self):
         #вставить миграчию функцию
         pass
-    def get_tutor(self):
+    def get_tutors(self):
         #вставить миграчию функцию
         pass
     def get_departments(self):
